@@ -27,7 +27,4 @@ Key visuals will be saved in `/images/`:
 - `missingness_summary.png`
 
 ## How to Run
-```bash
-pip install -r requirements.txt
-jupyter lab
 
