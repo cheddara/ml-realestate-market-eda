@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 cat > requirements.txt << 'EOF'
 numpy
 pandas
@@ -5,3 +6,10 @@ matplotlib
 scikit-learn
 jupyter
 EOF
+=======
+numpy
+pandas
+matplotlib
+scikit-learn
+jupyter
+>>>>>>> b8865ed (Remove extra README file)
