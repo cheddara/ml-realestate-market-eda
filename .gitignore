@@ -6,3 +6,11 @@ __pycache__/
 data/raw/
 data/*.zip
 data/*.parquet
+
+# Jupyter / local tooling
+.virtual_documents/
+anaconda_projects/
+
+# Local datasets (do not commit)
+data/ames.csv
+data/train.csv
