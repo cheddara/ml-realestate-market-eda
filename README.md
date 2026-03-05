@@ -26,5 +26,11 @@ Key visuals will be saved in `/images/`:
 - `price_vs_liv_area.png`
 - `missingness_summary.png`
 
-## How to Run
+ ## Key Insights (EDA)
+- **Quality dominates price:** `OverallQual` shows the strongest relationship with `SalePrice` (corr ~0.79), suggesting finish/build quality is a top pricing lever.
+- **Livable space is the next biggest driver:** `GrLivArea` is strongly associated with price (corr ~0.71); larger above-ground living area typically commands higher prices.
+- **Garages matter more than many people expect:** both `GarageCars` (corr ~0.64) and `GarageArea` (corr ~0.62) rank among the strongest predictors.
+- **Total usable square footage drives value:** `TotalBsmtSF` (corr ~0.61) and `1stFlrSF` (corr ~0.61) reinforce that overall space—not just room count—matters.
+- **Newer / updated homes trend higher:** `YearBuilt` (corr ~0.52) and `YearRemodAdd` (corr ~0.51) indicate age and renovations are meaningful pricing signals.
+
 
